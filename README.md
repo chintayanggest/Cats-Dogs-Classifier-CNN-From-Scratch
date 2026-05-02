@@ -90,7 +90,7 @@ Input (150×150×3)
 
 ## 💾 Pre-Trained Model
 The trained .keras model file is hosted on Hugging Face to bypass GitHub's large file limits.
-🔗 [Download Model on Hugging Face]([[https://huggingface.co/ChintaYanggest/cat-dog-classifier]])
+## 🔗 [Download Model on Hugging Face]([[https://huggingface.co/ChintaYanggest/cat-dog-classifier]])
 Run Inference on Your Own Image
 code
 Python
@@ -110,10 +110,12 @@ prediction = model.predict(img_array)
 
 print("🐱 Cat!" if prediction[0][0] < 0.5 else "🐶 Dog!")
 Note: No manual rescaling (dividing by 255) is needed in the testing script — the model inherently handles 1./255 normalization internally thanks to the V3 architecture!
-📓 Full Walkthrough
+
+## 📓 Full Walkthrough
 The complete Python code, training logs, and visualizations are inside the Jupyter Notebook:
-📄 Cat_vs_Dog.ipynb (Update this link to point to your actual file if the name differs)
-🛠️ Tech Stack
+📄 Cat_vs_Dog_V2.ipynb
+
+## 🛠️ Tech Stack
 Tool	Purpose
 Python 3.x	Core language
 TensorFlow / Keras	Model building & Sequential API
