@@ -72,7 +72,7 @@ After fixing the math error, the model successfully extracted higher-level featu
 
 The full architecture is documented inside the notebook. Here's a high-level overview:
 
-```text
+```
 Input (150×150×3)
 │
 ├── Data Augmentation  →  RandomFlip, RandomRotation, RandomZoom
@@ -86,7 +86,9 @@ Input (150×150×3)
 ├── Dropout(0.5)       ← Overfitting prevention
 ├── Dense(128, relu)
 └── Dense(1, sigmoid)  ← Binary output: Cat(0) or Dog(1)
-💾 Pre-Trained Model
+```
+
+## 💾 Pre-Trained Model
 The trained .keras model file is hosted on Hugging Face to bypass GitHub's large file limits.
 🔗 [Download Model on Hugging Face]([[https://huggingface.co/ChintaYanggest/cat-dog-classifier]])
 Run Inference on Your Own Image
