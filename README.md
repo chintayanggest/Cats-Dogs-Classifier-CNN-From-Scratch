@@ -90,7 +90,7 @@ Input (150×150×3)
 
 ## 💾 Pre-Trained Model
 The trained .keras model file is hosted on Hugging Face to bypass GitHub's large file limits.
-## 🔗 [Download Model on Hugging Face]([[https://huggingface.co/ChintaYanggest/cat-dog-classifier]])
+🔗 [Download the Pre-Trained Model Here](https://huggingface.co/ChintaYanggest/cat-dog-classifier)
 Run Inference on Your Own Image
 code
 Python
@@ -116,9 +116,10 @@ The complete Python code, training logs, and visualizations are inside the Jupyt
 📄 Cat_vs_Dog_V2.ipynb
 
 ## 🛠️ Tech Stack
-Tool	Purpose
-Python 3.x	Core language
-TensorFlow / Keras	Model building & Sequential API
-NumPy	Array operations
-Kaggle Dataset	~10,000 cat & dog images (8k Train / 2k Test)
-GPU (Local)	Hardware-accelerated training
+| Tool |	Purpose |
+|---|---|
+| Python 3.x	| Core language |
+| TensorFlow / Keras |	Model building & Sequential API |
+| NumPy	| Array operations |
+| Kaggle Dataset |	~10,000 cat & dog images (8k Train / 2k Test) |
+| GPU (Local)	| Hardware-accelerated training |
